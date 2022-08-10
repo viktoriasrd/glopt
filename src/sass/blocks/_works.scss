@@ -1,0 +1,29 @@
+.works {
+    padding: 51px 0 57px 0;
+    &__subtitle {
+        margin-top: 17px; 
+    }
+    &__wrapper {
+        margin-top: 37px;
+        display: flex;
+        justify-content:space-between;
+    }
+    &__item {
+        text-align: center;
+        margin-right: 30px;
+        &-title {
+            margin-top: 28px;
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            color: #ec644b;
+        }
+        &-descr {
+            margin-top: 5px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+            line-height: 22px;
+        }
+    }
+}

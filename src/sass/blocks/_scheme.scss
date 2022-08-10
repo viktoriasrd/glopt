@@ -1,0 +1,30 @@
+.scheme {
+    background-color: #f3f3f3;
+    padding: 51px 0 46px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 33px;
+   }
+    &__item {
+        text-align: center;
+        flex-basis: 24.9%;
+        margin-bottom: 26px;
+        &-title {
+            margin-top: 14px;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+            color: #ec644b;
+        }
+        &-descr {
+            text-align: inherit;
+            margin-top: 5px;
+            line-height: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+        }
+   }
+}

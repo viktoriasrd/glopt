@@ -1,0 +1,133 @@
+.promo {
+    padding: 23px 0 82px 0;
+    background: url('../../img/bg/layerss.png') (center/cover) no-repeat;
+    &__descr {
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 9px;
+    }
+    &__title {
+        font-family: 'Roboto Condensed';
+        font-size: 72px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $main-color;
+        text-align: center;
+        margin: 26px 0 0 0;
+    }
+    &__subtitle {
+        font-family: 'Roboto Condensed';
+        font-size: 42px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 9px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 39px;
+    }
+    &__item {
+        text-align: center;
+        width: 285px;
+        margin-bottom: 39px;
+        &-text {
+            color: white;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        &-images {
+            margin-top: 27px;
+            margin-bottom: 13px;
+        }
+    }
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &__logo {
+        margin-right: 55px;
+    }
+    &__menu {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+        margin-right: 55px;
+        margin-bottom: 0;
+        &-item {
+            border-right: 1px dotted #85878e;
+            padding: 0 11px;
+            &:first-child {
+                padding-left: 0;
+            }
+            &:last-child {
+                padding-right: 0;
+                border: none;
+            }
+            
+        }
+        &-link {
+            font-size: 15px;
+            line-height: 16px;
+            font-weight: 400;
+            color: #ffffff;
+            text-decoration: none;
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: -4px;
+                width: 0;
+                height: 1px;
+                background-color: $main-color;
+                transition: all .6s;
+            }
+            &:hover {
+                color: $main-color;
+                text-decoration: underline;
+                padding-bottom:5px ;
+                &::before {
+                    width: 100%;
+                }
+            }
+        }
+        &__hamburger {
+            display: none;
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 19px;
+
+    }
+}
+
+.contacts {
+    &__question{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__phone {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
+    }
+}

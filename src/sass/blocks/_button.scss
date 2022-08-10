@@ -1,0 +1,55 @@
+.button {
+    color: #fff;
+    background-color: $main-color;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-transform: uppercase;
+    &:hover {
+        background-color: rgba($main-color, .8);
+    }
+    &__header {
+        width: 160px;
+        height: 45px;
+        left: 180px;
+        top: 0px;
+        font-size: 12px;
+        margin: 5px 0 0 19px;
+    }
+    &__promo {
+        display: block;
+        width: 230px;
+        height: 57px;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    &__price {
+        margin-top: 25px;
+        width: 160px;
+        height: 45px;
+    }
+    &__form {
+        width: 180px;
+        height: 45px;
+        position: absolute;
+        top: 85%;
+        left: 52%;
+        transform: translateX(-57%);
+        z-index: 1;
+    }
+    &__questions {
+        width: 180px;
+        height: 45px;
+        display: block;
+        margin: 0 auto;
+    }
+    &__nav {
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 400;
+        text-transform: uppercase;
+        width: 160px;
+        height: 45px;
+        margin-left: 19px;
+    }
+}
